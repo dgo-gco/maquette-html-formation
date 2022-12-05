@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette HTML et CSS - CV</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/img/Screen Shot 2022-12-05 at 17.07.50.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li>Nom</li>
+                <li>Prenom</li>
+                <li>Adresse</li>
+                <li>Telephone</li>
+            </ul>
+        </nav>
+        <div class="img">
+            <p>
+            <img src="/img/cvPortrait.jpeg" alt="photo de moi" class="pdm">
+            photo de moi.</p>
+        </div>
+        <h1>Développeur.se Web</h1>
+        <hr>
+    </header>
+
+    <section class="section-one">
+        <h2>Menu</h2>
+        <ul class="formations">
+            <li><a href="">Expériences professionelles</a></li>
+            <li><a href="">Formations</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <hr>
+        <p><b>A propos :</b> Madame, Monsieur, 'un naturel <b>réfléchi</b> et <mark>organisé</mark>, je suis capable 
+            de m'adapter à un poste de travail et a un équipe assez rapidement. Autodidacte, j'apprends
+             vit et je serais ravi.e de mettre ces qualités au service de votre entreprise</p>
+        <hr>
+    </section>
+    <section class="section-two">
+        <h2>Expériences professionelles</h2>
+        <table>
+            <tr class="tr-one"> <!--table rows -->
+                <th>2016-2017</th> <!--table header -->
+                <td><b>Développeur front</b></td> <!--table data -->
+                <td>Intégration pour l'appli  pour l'entreprise Chanel</td>
+            </tr>
+            <tr class="tr-two">
+                <th>2018-2019</th>
+                <td><b>Developpeur back</b></td>
+                <td>Création de base de donnée pour l'entreprise</td>
+            </tr>
+            <tr class="tr-three">
+                <th>2019-2020</th>
+                <td><b>Developpeur Fullstack</b></td>
+                <td>Création de nouveau site de google</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section-three">
+        <h2>Formation</h2>
+        <ol>
+            <li><b>2009-2014:</b>Master en économie á Science Po</li>
+            <li><b>2014-2014:</b>Formation Artis à Simplon</li>
+            <li><b>2015-2016:</b>Fromation Developpeur à Simplon </li>
+        </ol>
+        <hr>
+    </section>
+
+    <section class="section-four">
+        <h2>Portfolio</h2>
+        <p>Voici mon travail:</p>
+        <iframe width="540" height="315" src="https://www.youtube.com/embed/eRZHzi3l-4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Voici le lien vers<a href="#"> mon site web </a></p>
+        <hr>
+    </section>
+
+    <footer>
+        <h3>Contact</h3>    
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email" class="mail">email:</label>
+            <input type="text" id="email">
+            <textarea name="message" id="mssg" cols="30" rows="10" placeholder="Votre message"></textarea>
+            <button>Submit</button>
+        </form>
+
+    </footer>
+
+
+</body>
+</html>
